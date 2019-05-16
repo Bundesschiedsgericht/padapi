@@ -9,7 +9,15 @@
  */
 return [
     'routes' => [
-	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-	   ['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
+        [
+            'name' => 'api#getUserinfo',
+            'url' => '/api/v1/userinfo',
+            'verb' => 'GET'
+        ],
+        [
+            'name' => 'api#getGroupinfo',
+            'url' => '/api/v1/groupinfo',
+            'verb' => 'GET'
+        ]
     ]
 ];

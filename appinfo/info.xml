@@ -15,9 +15,5 @@
         <nextcloud min-version="15" max-version="15"/>
     </dependencies>
     <navigations>
-        <navigation>
-            <name>Pad Api</name>
-            <route>padapi.page.index</route>
-        </navigation>
     </navigations>
 </info>
