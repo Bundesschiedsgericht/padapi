@@ -1,0 +1,15 @@
+{
+    "name": "Pad Api",
+    "description": "Provoides API functions for Etherpad integration",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Stefan Thöni"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
